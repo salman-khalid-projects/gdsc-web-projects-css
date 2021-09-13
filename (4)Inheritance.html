@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inheritance</title>
+
+        <style>
+
+            /* Here in this example, colors are inherited and width prperty is not inherited */
+
+            body {
+                background-color: #eee;     /*Notice: h1 & main inherit the bacground color of the body tag*/
+            }
+
+            h1{
+                background-color: #fff;
+            }
+
+            main {
+                background-color: #ccc;     /*Notice: div inherits the bacground color of the main tag*/
+                width: 50%;                   /*Notice: div doesn't inherit the width of the main tag*/
+            }
+
+            div {
+                background-color: #fff;
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Title</h1>
+
+        <main>
+            <div>Hello</div>
+        </main>
+    </body>
+</html>
